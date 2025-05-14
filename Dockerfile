@@ -98,4 +98,4 @@ COPY ./src /ComfyUI/src
 COPY ./src/start.sh /start.sh
 RUN chmod +x /start.sh
 
-ENTRYPOINT ["/start.sh"]
+CMD python3 -u -m ComfyUI.src.handler --rp_serve_api --rp_api_host=0.0.0.0
