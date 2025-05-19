@@ -1,4 +1,4 @@
-# worker-moch
+# worker-
 
 [![RunPod](https://api.runpod.io/badge/rachfop/worker-mochi)](https://www.runpod.io/console/hub/rachfop/worker-mochi)
 
